@@ -3,7 +3,7 @@ import { styles } from "./styles";
 import { Ingredients } from "@/components/ingredients";
 
 export default function Index(){    
-    
+
     return(
         <View style={styles.container}>
             <Text style={styles.title}>
