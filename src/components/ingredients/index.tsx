@@ -1,4 +1,4 @@
-import { Pressable, Text, Image, ScrollView } from "react-native";
+import { ScrollView } from "react-native";
 import { styles } from "./styles";
 import { Ingredient } from "../ingredient";
 import { useState } from "react";
@@ -22,7 +22,7 @@ export function Ingredients(){
                         key={index} 
                         name="maçã" 
                         image="" 
-                        selected 
+                        selected={selected.includes(String(index))}
                         onPress={()=>{handleToggleSelected(String(index))}}
                     />
                 ))
