@@ -6,7 +6,7 @@ import { MaterialIcons } from "@expo/vector-icons"
 
 export function Selected({quantity, onClear, onSearch}:Props){
     return(
-        <Animated.View>
+        <Animated.View style={styles.container}>
             <View style={styles.header}>
                 <Text style={styles.label}>
                     {quantity} Ingredientes selecionados

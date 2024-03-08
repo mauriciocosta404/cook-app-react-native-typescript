@@ -33,7 +33,7 @@ export function Ingredients(){
                         />
                         ))
                     }
-                <Selected quantity={Selected.length} onClear={handleClearSelected} onSearch={() =>{}}/>
+                <Selected quantity={selected.length} onClear={handleClearSelected} onSearch={() =>{}}/>
             </ScrollView>
             
     );
